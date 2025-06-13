@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:background="#FAFAFA">
 
     <TextView
-        android:layout_gravity="center"
-        android:text="Welcome to Home"
-        android:textSize="20sp"
+        android:id="@+id/homeWelcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to VR Industries\nFresh &amp; Pure Farm Products"
+        android:textAlignment="center"
+        android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="#333"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textColor="#4E342E"
+        android:layout_gravity="center" />
 </FrameLayout>
